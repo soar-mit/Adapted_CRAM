@@ -10,7 +10,7 @@ def Adapted_CRAM(q_mu: sp.csc_array, c: sp.csc_array, corr: np.ndarray, s: np.nd
     corr: K*N_x X K*N_x
     s: K*N_x
     p: N_x X K matrix of boolean type telling active reactions/isotopes
-    n0: K vector of initial concentrations
+    n0: K
     """
     K = q_mu.shape[0]
     KN_x = s.size
